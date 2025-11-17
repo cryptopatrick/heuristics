@@ -10,7 +10,7 @@ documentation = "https://docs.rs/heuristics"
 homepage = "https://github.com/cryptopatrick/heuristics"
 repository = "https://github.com/cryptopatrick/heuristics"
 readme = "README.md"
-keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+keywords = ["heuristics", "rust", "data-structures", "algorithms", "performance"]
 license = "MIT"
 autotests = false
 
@@ -25,3 +25,9 @@ path = "tests/test.rs"
 
 ###############################################################################
 [dependencies]
+clap = { version = "4.5", features = ["derive"] }
+colored = "2.1"
+
+[[bin]]
+name = "heuristics"
+path = "src/main.rs"
