@@ -1,0 +1,27 @@
+[package]
+name = "heuristics"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = "Rules of thumb to improve Rust code."
+documentation = "https://docs.rs/heuristics"
+homepage = "https://github.com/cryptopatrick/heuristics"
+repository = "https://github.com/cryptopatrick/heuristics"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "heuristics"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
